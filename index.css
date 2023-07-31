@@ -1,0 +1,105 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* semantics */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 3px solid #f5f5f5;
+}
+
+header, section{
+    background-color: white;
+}
+
+section{
+    padding: 20px 0px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+
+/* images */
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+}
+
+.render-avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.post-avatar, .post-interaction{
+    margin: 0 15px;
+}
+
+.icon{
+    width: 8%;
+    margin: 15px 10px;
+}
+
+.icon:hover, .icon:focus{
+    opacity: 0.5;
+}
+
+
+/* user info display */
+
+.comment, .user-info{
+    display: flex;
+}
+
+.user-info, 
+.user-info2, 
+.post-interaction{
+    margin-top: 0px;
+}
+
+
+/* typography */
+h2{
+    font-size: 25px;
+}
+
+h3, p{
+    font-size: 20px;
+}
+
+h2, h3, p{
+    margin: 0;
+}
+
+
+/* post interaction section */
+
+.icon-section, .post-section{
+    margin: 0px;
+    padding: 0px;
+}
+
+.comment{
+    margin-top: 15px;
+}
+
+.comment h3{
+    margin-right: 5px;
+}
+
+.post-interaction{
+    margin: 0px;
+    margin-top: -18px;
+    padding: 8px 15px;
+    border-bottom: 50px solid #f5f5f5;
+}
